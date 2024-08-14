@@ -1,7 +1,7 @@
 #!/bin/bash -e
 
 # !!!!!
-# This file must be located at ~/ext4-coverage/srcipts folder
+# This file must be located at ~/Сoverage/srcipts folder
 # !!!!!
 
 DEST=$1
@@ -19,7 +19,5 @@ find $GCDA -name '*.gcda' -exec sh -c 'cat < $0 > '$TEMPDIR'/$0' {} \;
 find $GCDA -name '*.gcno' -exec sh -c 'cp -d $0 '$TEMPDIR'/$0' {} \;
 tar czf $DEST -C $TEMPDIR sys
 rm -rf $TEMPDIR
-
-tar xzf $DEST
 
 echo "$DEST successfully created, unpacked and ready to be applied!"
