@@ -10,7 +10,7 @@
 
 В репозитории также есть инструкции по всему процессу:
 - [Настройка виртуальной машины](./instructions/1.%20Virtual%20Machine.md).
-- [Сбор и установка кастомного ядра](./instructions/2.%20Linux%20Kernel.md).
+- [Сборка и установка кастомного ядра](./instructions/2.%20Linux%20Kernel.md).
 - [Настройка тестового набора](./instructions/3.%20Tests.md).
 - [Запуск тестов и сбор покрытия](./instructions/4.%20Coverage%20Gather.md).
 
