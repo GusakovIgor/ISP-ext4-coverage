@@ -11,7 +11,7 @@ alias cls=clear
 COVERAGE_DIR="$(realpath ~/Coverage)"
 LOG_FILE="$COVERAGE_DIR/latest.log"
 
-function coverage_tests() {
+function coverage_test() {
     WORKING_DIR="$PWD"
 
     cd $COVERAGE_DIR/xfstests-dev
