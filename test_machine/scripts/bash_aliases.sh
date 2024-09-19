@@ -18,7 +18,7 @@ function coverage_test() {
     TEST_DIR=$1
     if [[ -n $TEST_DIR ]]
     then
-        sudo ./check '$TEST_DIR/*' | tee $LOG_FILE
+        sudo ./check $TEST_DIR/* | tee $LOG_FILE
     else
         sudo ./check | tee $LOG_FILE
     fi
